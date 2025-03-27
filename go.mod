@@ -4,11 +4,15 @@ go 1.23.0
 
 toolchain go1.24.1
 
+//replace go.arpabet.com/cligo => ../cligo
+//replace go.arpabet.com/servion => ../servion
+//replace go.arpabet.com/glue => ../glue
+
 require (
 	github.com/gorilla/websocket v1.5.3
-	go.arpabet.com/cligo v0.1.5
-	go.arpabet.com/glue v1.2.3
-	go.arpabet.com/servion v0.1.1
+	go.arpabet.com/cligo v0.1.6
+	go.arpabet.com/glue v1.2.4
+	go.arpabet.com/servion v0.1.2
 )
 
 require (
